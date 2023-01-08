@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #272725;
+}
+
+.kanika {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: #272725;
+    width: 100%;
+    z-index: 999;
+    transition: all 0.3s linear;
+    padding: 30px 0;
+    overflow-y: auto;
+    width: 100%;
+    padding: 0 45px;
+    margin: auto;
+    max-width: 1440px;
+    padding: 0 130px;
+}
+
+h2 {
+
+    font-size: 24px;
+    font-family: "calluna-regular";
+    line-height: 1.33;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    color: #fff;
+}
+
+.login {
+
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1;
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    color: #058B71;
+}
+
+.passion_row {
+    width: 80%;
+    text-align: left;
+    line-height: 2;
+}
+
+.passion_col_1 {
+    width: 40%;
+    float: left;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-family: "calluna-regular";
+    color: #fff;
+    line-height: 1.33;
+    display: block;
+    text-transform: capitalize;
+    position: relative;
+    float: left;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.passion_col_2 {
+    width: 40%;
+    float: right;
+    margin-top: 150px;
+    margin-left: 100px;
+    position: relative;
+    text-align: center;
+}
+
+button {
+    width: 220px;
+    text-align: center;
+    margin: 20px 10px;
+    border: 2px solid #3d707f;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    padding: 18px 24px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Inter-Regular";
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-align: center;
+    background-color: #3d707f;
+    transition: all 0.45s ease-Out;
+    border-radius: 999px;
+    z-index: 999;
+    margin-left: 80px;
+}
+
+span {
+    background: #fff;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    border-color: #fff;
+    color: #3d707f;
+    background-color: #fff;
+}
+
+.logo {
+    width: 120;
+    cursor: pointer;
+}
+
+.fa-book,
+.fa-user {
+    background-color: #3d707f;
+}
+
+.fa-book:hover,
+.fa-user:hover {
+    color: #3d707f;
+    background-color: #fff
+}
+
+.social-icons ul {
+    padding-left: 80px;
+    padding-bottom: 25px;
+}
+
+.social-icons ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    font-style: none;
+    padding-left: 0px;
+    font-size: 12px;
+}
+
+.social-icons ul li a {
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons ul li a:hover {
+    color: #058B71;
+}
+
+#navv {
+    width: 85%;
+    margin: auto;
+    display: 35px 0;
+    padding-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+select {
+
+    font-size: 36px;
+    font-family: "calluna-regular";
+    color: #fff;
+    line-height: 1.33;
+    display: block;
+    text-transform: capitalize;
+    position: relative;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical;
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    padding-bottom: 25px;
+}
+
+select:hover {
+    color: #058B71
+}
+
+.menu_items {
+
+    font-size: 36px;
+    font-family: "calluna-regular";
+    color: #fff;
+    line-height: 1.33;
+    display: block;
+    text-transform: capitalize;
+    position: relative;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.menu_items:hover {
+    color: #058B71
+}
+
+.hr {
+
+    border: 0.1px solid #fff;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.connect {
+    padding-top: 20px;
+}
+
+.login {
+    padding-left: 40px;
+}
