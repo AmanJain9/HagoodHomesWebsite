@@ -689,9 +689,9 @@ button.our-story:hover {
 .social-icons ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
+    margin-right: 5px;
     font-style: none;
-    padding-left: 25px;
+    padding-left: 35px;
 
 }
 
@@ -923,4 +923,9 @@ a.menu:hover {
     background-color: #fff;
     color: #058B71;
     border-color: #fff;
+}
+
+#YourInterest {
+    padding-left: 0px;
+    ;
 }
